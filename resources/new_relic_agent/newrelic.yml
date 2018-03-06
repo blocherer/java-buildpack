@@ -171,10 +171,10 @@ common: &default_settings
     explain_threshold: 0.5
 
 
-    circuitbreaker:
-      enabled: false
-      memory_threshold: 20
-      gc_cpu_threshold: 10
+  circuitbreaker:
+    enabled: false
+    memory_threshold: 20
+    gc_cpu_threshold: 10
 
 
     # Use this setting to control the variety of transaction traces.

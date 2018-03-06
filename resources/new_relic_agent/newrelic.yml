@@ -170,6 +170,13 @@ common: &default_settings
     # Default is 0.5 seconds.
     explain_threshold: 0.5
 
+
+    circuitbreaker:
+      enabled: false
+      memory_threshold: 20
+      gc_cpu_threshold: 10
+
+
     # Use this setting to control the variety of transaction traces.
     # The higher the setting, the greater the variety.
     # Set this to 0 to always report the slowest transaction trace.
